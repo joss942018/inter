@@ -1,0 +1,40 @@
+  query SurveyById($id: Int!) {
+    surveyById(id: $id) {
+      id
+      name
+      active
+      anonymous
+      endDate
+      moreThanOneAnswer
+      startDate
+      isFinished
+      isManuallyActivated
+      surveyuserSet {
+        email
+      }
+      language {
+        id
+      }
+      questionsList {
+        id
+        isOptional
+        questionText
+        questionType
+        orderOfQuestion
+        specifyReason
+        negativeAnswer
+      }
+      category {
+        id
+      }
+    }
+  }
+
+  query Languages {
+    languages {
+      id
+      name
+    }
+  }
+
+  

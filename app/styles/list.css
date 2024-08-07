@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+    .list-item {
+        @apply flex items-center gap-my-8 px-my-16 py-my-12;
+    }
+
+    .list-item.clickable {
+        @apply cursor-pointer hover:bg-neutral-100 active:bg-neutral-50 dark:hover:bg-neutral-900 dark:active:bg-neutral-950;
+    }
+}

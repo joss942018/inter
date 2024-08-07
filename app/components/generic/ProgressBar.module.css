@@ -1,0 +1,12 @@
+.contPrincipal {
+  /* background-color: #ebebeb; */
+  width: 100%;
+  height: 2px;
+  /* border-radius: 3px; */
+}
+
+.pb {
+  height: 100%;
+  transition: width 0.5s;
+  /* border-radius: 3px; */
+}

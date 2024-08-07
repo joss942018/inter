@@ -1,0 +1,36 @@
+.cont-label-text {
+  align-self: 'flex-start';
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cont-label-text.center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cont-label-text.row {
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cont-label-text>.label {
+  font-size: 1rem;
+  color: var(--color-texto-lowest);
+}
+
+.cont-label-text.row>.label {
+  font-size: 1rem;
+}
+
+.cont-label-text.row>.text {
+  font-size: 1rem;
+}
+
+.cont-label-text>.text {
+  color: 'black';
+  font-size: 1.1rem;
+}

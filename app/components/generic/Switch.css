@@ -1,0 +1,58 @@
+:root {
+  --radio-switch: 13px;
+}
+
+.cont-principal-switch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.cont-principal-switch.column {
+  flex-direction: column-reverse;
+  font-size: 0.8rem;
+  gap: 5px;
+}
+
+.cont-switch {
+  height: calc(var(--radio-switch) * 2);
+  width: calc(var(--radio-switch) * 4);
+  border-radius: var(--radio-switch);
+  position: relative;
+  cursor: pointer;
+}
+
+.ball-switch {
+  /* background: linear-gradient(0deg, rgba(230, 230, 230, 1) 0%, rgba(250, 250, 250, 1) 100%); */
+  box-shadow: var(--sombra-card);
+  height: calc(calc(var(--radio-switch) * 2) - 4px);
+  width: calc(calc(var(--radio-switch) * 2) - 4px);
+  border-radius: var(--radio-switch);
+  position: absolute;
+  transition: transform var(--transicion-rapida),
+    background-color var(--transicion-rapida);
+  top: 2px;
+  left: 2px;
+}
+
+.ball-switch.active {
+  transform: translateX(calc(var(--radio-switch) * 2));
+  /* background: linear-gradient(0deg, rgba(194, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%); */
+}
+
+.ball-switch.disabled {
+  filter: opacity(0.6);
+}
+
+.switch-state-label {
+  color: var(--color-principal);
+  font-size: 1rem;
+}
+
+.cont-main-switch {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+.contModal {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  z-index: 110;
+  transform: scaleX(0) scaleY(0) translateX(-50%) translateY(-200px);
+  transform-origin: 0% 0;
+  transition: transform var(--transicion-moderada);
+  background-color: var(--color-contenido-modal);
+  backdrop-filter: blur(14px);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contModal.active {
+  transform: scaleX(1) scaleY(1) translateX(-50%) translateY(20px);
+}
+
+.modalFondo {
+  @apply bg-zinc-500 bg-opacity-50;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 100;
+}
+
+.modalFondo.active {
+  display: block;
+}

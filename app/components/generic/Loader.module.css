@@ -1,0 +1,50 @@
+.contLoader {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.loader {
+  justify-self: center;
+  align-self: center;
+  display: block;
+  border-radius: 50%;
+  /* border: 2px solid;
+  border-color: transparent; */
+  animation: animacionLoader 2.5s linear infinite;
+  box-sizing: border-box;
+}
+
+/* .white .loader {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.black .loader {
+  border-top-color: #000;
+  border-bottom-color: #000;
+}
+
+.gray .loader {
+  border-top-color: gray;
+  border-bottom-color: gray;
+} */
+
+@keyframes animacionLoader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

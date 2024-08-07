@@ -1,0 +1,16 @@
+.star {
+  /* mask-image: url(/ico/star-fill.svg); */
+  /* mask-size: 2.5rem 2.5rem;
+  mask-repeat: no-repeat; */
+  /* background-color: lightgray; */
+  filter: grayscale(1);
+}
+
+.star.checked {
+  filter: grayscale(0);
+}
+
+.star.hovered {
+  /* background-color: rgb(155, 137, 0); */
+  filter: grayscale(0.6);
+}

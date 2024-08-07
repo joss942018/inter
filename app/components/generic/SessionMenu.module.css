@@ -1,0 +1,60 @@
+.contPrincipal {
+  position: fixed;
+  border-radius: 15px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  z-index: 39;
+}
+
+.icoAction {
+  filter: invert(0.5);
+  height: 25px;
+}
+
+.contIcoUser0 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 3px solid white;
+}
+
+.contIcoUser1 {
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
+}
+
+.contIcoUser1 > p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+.icoUser0 {
+  height: 30px;
+  width: 30px;
+  filter: invert(1);
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+/* .icoUser1 {
+    height: 50px;
+    width: 50px;
+    filter: invert(0.5)
+} */
+
+.logoutBtn > .contIcoAction > .icoAction {
+  filter: invert(31%) sepia(39%) saturate(1282%) hue-rotate(316deg)
+    brightness(110%) contrast(103%);
+}

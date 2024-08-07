@@ -1,0 +1,103 @@
+.custom-width-1 {
+  flex: 0 0 8.33%; /* 1/12 del ancho total */
+  max-width: 8.33%;
+}
+
+.custom-width-1-5 {
+  flex: 0 0 7.33%; /* 1/12 del ancho total */
+  max-width: 7.33%;
+}
+
+.custom-width-2 {
+  flex: 0 0 16.66%; /* 2/12 del ancho total */
+  max-width: 16.66%;
+}
+.custom-width-2-5 {
+  flex: 0 0 13.33%; /* 2/12 del ancho total */
+  max-width: 13.33%;
+}
+.custom-width-2-75 {
+  flex: 0 0 14.44%; /* 2/12 del ancho total */
+  max-width: 14.44%;
+}
+
+.custom-width-3 {
+  flex: 0 0 25%; /* 3/12 del ancho total */
+  max-width: 25%;
+}
+
+.custom-width-4 {
+  flex: 0 0 33%; /* 3/12 del ancho total */
+  max-width: 33%;
+}
+.custom-width-5 {
+  flex: 0 0 40%; /* 3/12 del ancho total */
+  max-width: 40%;
+}
+
+.custom-height-1 {
+  height: 25%; /* Define la altura que necesites */
+}
+
+.custom-height-2 {
+  height: 50%; /* Define la altura que necesites */
+}
+
+.custom-height-3 {
+  height: 15rem; /* Define la altura que necesites */
+}
+
+.progress-bar-container {
+  flex-grow: 1;
+  height: 0.40rem;
+  background-color: #d1cfcf; /* Color de fondo de la barra */
+  border-radius: 0.25rem; /* Borde redondeado */
+  margin-left: 0.5rem; /* Espacio entre el texto y la barra */
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 90%;
+  background-color: #f5a623; /* Color de la barra de progreso */
+  border-radius: 0.25rem; /* Borde redondeado */
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.map-card {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Ajusta esta altura según tus necesidades */
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.responsive-map {
+  width: 100%;
+  height: 50vh; /* 50% del viewport height */
+  min-height: 100px; /* Altura mínima */
+  max-height: 250px; /* Altura máxima */
+}
+
+@media (max-width: 768px) {
+  .formato {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+@media (min-width: 769px) {
+  .formato {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+}

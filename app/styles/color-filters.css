@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .primary-color-filter {
+        filter: invert(41%) sepia(95%) saturate(6983%) hue-rotate(350deg) brightness(90%) contrast(91%);
+    }
+}
