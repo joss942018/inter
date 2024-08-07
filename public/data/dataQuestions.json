@@ -1,0 +1,20 @@
+{
+  "questionsBank": [
+    {
+      "questionEN": "How does the magic button work?",
+      "questionES": "¿Cómo funciona el botón mágico?",
+      "textEN": "Elia's magic button tool is a valuable feature designed to raise the quality of your questions and, therefore, get more effective responses from users. Using artificial intelligence, this tool optimizes writing to achieve superior results. Below we provide an example video that illustrates how to use this resource.",
+      "textES": "La herramienta del botón mágico que proporciona Elia es una valiosa función diseñada para elevar la calidad de tus preguntas y, por ende, obtener respuestas más efectivas de los usuarios. Mediante el uso de inteligencia artificial, esta herramienta optimiza la redacción para lograr resultados superiores. A continuación, te proporcionamos un video de ejemplo que ilustra cómo utilizar este recurso.",
+      "image": "",
+      "video": "/videos/magicButton.mp4"
+    },
+    {
+      "questionEN": "How to activate a survey on Elia?",
+      "questionES": "¿Cómo activar una encuesta en Elia?",
+      "textEN": "To activate a survey in Elia there are two different ways. The first is indefinitely, in which you simply select the Activate option, and to deactivate it, select this option again. If you want to activate a survey for a defined period of time, choose a start and end date and time in the survey details section. You can see the procedure for both cases in the following video.",
+      "textES": "Para activar una encuestas en Elia existen dos formas distintas. La primera es de manera indefinida, en la cual simplemente seleccionas la opción Activar, y para desactivarla, seleccionas esta opción nuevamente. Si deseas activar una encuesta durante un periodo de tiempo definido, elige una fecha y hora de inicio y fin en la sección de detalles de la encuesta. El procedimiento para ambos casos lo puedes observar en el siguiente video.",
+      "image": "",
+      "video": "/videos/activateSurvey.mp4"
+    }
+  ]
+}

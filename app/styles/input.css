@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+    .input {
+        @apply border outline-none h-my-48 px-my-12 py-my-12;
+    }
+
+    .input:focus {
+        @apply border-neutral-400;
+    }
+
+    .input-error {
+        @apply border-error;
+    }
+
+    .decorative-border {
+        @apply border-light dark:border-medium_d;
+    }
+
+    .checkbox {
+        @apply cursor-pointer appearance-none border-2 border-primary-700 rounded-my-4 w-my-20 h-my-20 checked:bg-primary-700 checked:border-transparent focus:outline-none shrink-0;
+    }
+
+    .radio {
+        @apply cursor-pointer appearance-none border-2 border-primary-700 rounded-full w-my-20 h-my-20 checked:bg-primary-700 checked:border-transparent focus:outline-none shrink-0;
+    }
+}

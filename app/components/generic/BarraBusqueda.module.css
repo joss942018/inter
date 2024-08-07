@@ -1,0 +1,29 @@
+.contChildItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.contChildItems input {
+    font-size: 1.2rem;
+}
+
+.resultados {
+    font-size: 0.8rem;
+    color: gray;
+    white-space: nowrap;
+}
+
+.btnBorrar {
+    /* position: absolute; */
+    height: 22px;
+    background-color: rgb(190, 190, 190);
+    filter: invert(1);
+    padding: 2px;
+    border-radius: 50%;
+    top: 9px;
+    right: 9px;
+}

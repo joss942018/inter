@@ -1,0 +1,38 @@
+.label-numero-unidad-label {
+    font-size: 0.85rem;
+    color: var(--color-texto-lowest)
+}
+
+.label-numero-unidad-cont-numero {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.label-numero-unidad-derecha .label-numero-unidad-cont-numero {
+    justify-content: flex-end;
+}
+
+.label-numero-unidad-exponente {
+    font-size: 1rem;
+    align-self: flex-start;
+    color: var(--color-trullo);
+}
+
+.label-numero-unidad-numero {
+    font-size: 2.5rem;
+    color: var(--color-trullo);
+}
+
+.label-numero-unidad-unidad {
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    color: var(--color-trullo);
+    opacity: 0.6;
+}
+
+.label-numero-unidad-derecha {
+    /* justify-content: flex-end; */
+    text-align: end;
+}

@@ -1,0 +1,323 @@
+.ico-grehus-color {
+  content: url(/ico/grehus-color.svg);
+}
+
+.ico-saludo-color {
+  content: url(/ico/waving-hand-color.svg);
+}
+
+.ico-error-color {
+  content: url(/ico/error-color.svg);
+}
+
+.ico-exito-color {
+  content: url(/ico/exito-color.svg);
+}
+
+.ico-advertencia-color {
+  content: url(/ico/advertencia-color.svg);
+}
+
+.ico-refresh-outline {
+  content: url(/ico/refresh-outline.svg);
+}
+
+.ico-mic-outline {
+  content: url(/ico/mic-outline.svg);
+}
+
+.ico-mic {
+  content: url(/ico/mic.svg);
+}
+
+.ico-wave {
+  content: url(/ico/wave.svg);
+}
+
+.ico-bar-chart-outline {
+  content: url(/ico/bar-chart-outline.svg);
+}
+
+.ico-pie-chart-outline {
+  content: url(/ico/pie-chart-outline.svg);
+}
+
+.ico-people-outline {
+  content: url(/ico/people-outline.svg);
+}
+
+.ico-add-outline {
+  content: url(/ico/add-outline.svg);
+}
+
+.ico-close-outline {
+  content: url(/ico/close-outline.svg);
+}
+
+.ico-document-text-outline {
+  content: url(/ico/document-text-outline.svg);
+}
+
+.ico-cloud-download-outline {
+  content: url(/ico/cloud-download-outline.svg);
+}
+
+.ico-cloud-upload-outline {
+  content: url(/ico/cloud-upload-outline.svg);
+}
+
+.ico-create-outline {
+  content: url(/ico/create-outline.svg);
+}
+
+.ico-trash-outline {
+  content: url(/ico/trash-outline.svg);
+}
+
+.ico-save-outline {
+  content: url(/ico/save-outline.svg);
+}
+
+.ico-log-in-outline {
+  content: url(/ico/log-in-outline.svg);
+}
+
+.ico-log-out-outline {
+  content: url(/ico/log-out-outline.svg);
+}
+
+.ico-person-outline {
+  content: url(/ico/person-outline.svg);
+}
+
+.ico-cog-outline {
+  content: url(/ico/cog-outline.svg);
+}
+
+.ico-chevron-back-outline {
+  content: url(/ico/chevron-back-outline.svg);
+}
+
+.ico-chevron-forward-outline {
+  content: url(/ico/chevron-forward-outline.svg);
+}
+
+.ico-chevron-down-outline {
+  content: url(/ico/chevron-down-outline.svg);
+}
+
+.ico-chevron-up-outline {
+  content: url(/ico/chevron-up-outline.svg);
+}
+
+.ico-earth-outline {
+  content: url(/ico/earth-outline.svg);
+}
+
+.ico-eye-outline {
+  content: url(/ico/eye-outline.svg);
+}
+
+.ico-eye-off-outline {
+  content: url(/ico/eye-off-outline.svg);
+}
+
+.ico-checkmark-outline {
+  content: url(/ico/checkmark-outline.svg);
+}
+
+.ico-person-circle-outline {
+  content: url(/ico/person-circle-outline.svg);
+}
+
+.ico-star-outline {
+  content: url(/ico/star-outline.svg);
+}
+
+.ico-business-outline {
+  content: url(/ico/business-outline.svg);
+}
+
+.ico-lock-closed-outline {
+  content: url(/ico/lock-closed-outline.svg);
+}
+
+.ico-clipboard-outline {
+  content: url(/ico/clipboard-outline.svg);
+}
+
+.ico-logo-facebook {
+  content: url(/ico/logo-facebook.svg);
+}
+
+.ico-logo-instagram {
+  content: url(/ico/logo-instagram.svg);
+}
+
+.ico-logo-twitter {
+  content: url(/ico/logo-twitter.svg);
+}
+
+.ico-share-outline {
+  content: url(/ico/share-outline.svg);
+}
+
+.ico-sunny-outline {
+  content: url(/ico/sunny-outline.svg);
+}
+
+.ico-moon-outline {
+  content: url(/ico/moon-outline.svg);
+}
+
+.ico-qr-code-outline {
+  content: url(/ico/qr-code-outline.svg);
+}
+
+.ico-camera-outline {
+  content: url(/ico/camera-outline.svg);
+}
+
+.ico-backspace-outline {
+  content: url(/ico/backspace-outline.svg);
+}
+
+.ico-sun-color {
+  content: url(/ico/sun-color.svg);
+}
+
+.ico-moon-color {
+  content: url(/ico/moon-color.svg);
+}
+
+.ico-emoji-angry {
+  content: url(/ico/emoji-angry.svg);
+}
+
+.ico-emoji-frown {
+  content: url(/ico/emoji-frown.svg);
+}
+
+.ico-emoji-grin-beam {
+  content: url(/ico/emoji-grin-beam.svg);
+}
+
+.ico-emoji-meh {
+  content: url(/ico/emoji-meh.svg);
+}
+
+.ico-emoji-smile-beam {
+  content: url(/ico/emoji-smile-beam.svg);
+}
+
+.ico-link-outline {
+  content: url(/ico/link-outline.svg);
+}
+
+.ico-terminal-outline {
+  content: url(/ico/terminal-outline.svg);
+}
+
+.ico-ellipsis-vertical-outline {
+  content: url(/ico/ellipsis-vertical-outline.svg);
+}
+
+.ico-copy-outline {
+  content: url(/ico/copy-outline.svg);
+}
+
+.ico-share-social-outline {
+  content: url(/ico/share-social-outline.svg);
+}
+
+.ico-folder-outline {
+  content: url(/ico/folder-outline.svg);
+}
+
+.ico-folder-plus-solid {
+  content: url(/ico/folder-plus-solid.svg);
+}
+
+.ico-clipboard-list-solid {
+  content: url(/ico/clipboard-list-solid.svg);
+}
+
+.ico-grid-outline {
+  content: url(/ico/grid-outline.svg);
+}
+
+.ico-list-outline {
+  content: url(/ico/list-outline.svg);
+}
+
+.ico-reorder-three-outline {
+  content: url(/ico/reorder-three-outline.svg);
+}
+
+.ico-move-outline {
+  content: url(/ico/move-outline.svg);
+}
+
+.ico-arrow-undo-outline {
+  content: url(/ico/arrow-undo-outline.svg);
+}
+
+.ico-stop-outline {
+  content: url(/ico/stop-outline.svg);
+}
+
+.ico-ellipse-outline {
+  content: url(/ico/ellipse-outline.svg);
+}
+
+.ico-calendar-outline {
+  content: url(/ico/calendar-outline.svg);
+}
+
+.ico-arrow-forward-outline {
+  content: url(/ico/arrow-forward-outline.svg);
+}
+
+.ico-attach-outline {
+  content: url(/ico/attach-outline.svg);
+}
+
+.ico-document-outline {
+  content: url(/ico/document-outline.svg);
+}
+
+.ico-grip {
+  content: url(/ico/grip.svg);
+}
+
+.ico-sidebar {
+  content: url(/ico/sidebar.svg);
+}
+
+.ico-download-outline {
+  content: url(/ico/download-outline.svg);
+}
+
+.ico-external-link {
+  content: url(/ico/external-link.svg);
+}
+
+.ico-file-tray-outline {
+  content: url(/ico/file-tray-outline.svg);
+}
+
+.ico-file-tray-stacked-outline {
+  content: url(/ico/file-tray-stacked-outline.svg);
+}
+
+.ico-mail-outline {
+  content: url(/ico/mail-outline.svg);
+}
+
+.ico-magic-hat {
+  content: url(/ico/magic-hat.svg);
+}
+
+.ico-color-wand-outline {
+  content: url(/ico/color-wand-outline.svg);
+}

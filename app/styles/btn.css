@@ -1,0 +1,59 @@
+@tailwind components;
+
+@layer components {
+    .btn {
+        @apply w-max flex items-center px-my-24 h-my-48 font-medium gap-my-12 cursor-pointer justify-center;
+    }
+
+    .btn-1 {
+        @apply bg-primary-800 hover:bg-primary-900 dark:bg-primary-700 dark:hover:bg-primary-800 text-white;
+    }
+
+    .btn-2 {
+        @apply bg-transparent border border-primary-800 hover:bg-primary-800 text-primary-800 hover:text-white dark:border-primary-200 dark:text-primary-200 dark:hover:bg-primary-800 dark:hover:border-primary-800 dark:hover:text-white;
+    }
+
+    .btn-3 {
+        @apply bg-transparent text-primary-800 hover:text-primary-900 dark:text-primary-400 dark:hover:text-primary-500 px-0;
+    }
+
+    .btn-4 {
+        @apply bg-transparent text-black hover:text-neutral-800 dark:text-white dark:hover:text-neutral-200 px-0;
+    }
+
+    /* .btn-5 {
+        @apply bg-transparent text-black hover:text-neutral-950 dark:text-white dark:hover:text-neutral-100 px-0;
+    } */
+
+    .btn-disabled {
+        @apply bg-neutral-200 dark:bg-neutral-700 text-neutral-300 dark:text-neutral-600 cursor-default;
+    }
+
+    .btn-sm {
+        @apply h-my-32 rounded-my-4;
+    }
+
+    .btn-md {
+        @apply h-my-48 rounded-my-4;
+    }
+
+    .btn-lg {
+        @apply h-my-64 rounded-my-4;
+    }
+
+    .btn.btn-square {
+        @apply flex items-center justify-center hover:bg-neutral-200 dark:hover:bg-neutral-700 !p-0;
+    }
+
+    .btn-sm.btn-square {
+        @apply w-my-32;
+    }
+
+    .btn-md.btn-square {
+        @apply w-my-48;
+    }
+
+    .btn-lg.btn-square {
+        @apply w-my-64;
+    }
+}

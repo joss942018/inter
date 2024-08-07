@@ -1,0 +1,72 @@
+.contPages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  /* gap: 5px; */
+  list-style: none;
+  justify-content: center;
+  width: max-content;
+}
+
+.contPages li {
+  padding: 0 10px;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  /* background-color: var(--color-fondo-tab); */
+  /* padding-top: 5px;   */
+  /* font-weight: bold; */
+  color: gray;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+  /* box-shadow: inset 0px -2px 0px 0px var(--color-texto-lowest); */
+  /* background-color: var(--color-fondo-button); */
+  /* box-shadow: var(--borde-input); */
+  /* transition: background-color ease-in-out 0.1s, color ease-in-out 0.1s; */
+}
+
+.contPages li.active {
+  background-color: var(--color-principal);
+  color: white;
+}
+
+.contPages li:hover {
+  background-color: var(--color-secundario);
+  color: white;
+}
+
+.icoFlecha {
+  filter: invert(0.4);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 2.5px 2.5px;
+}
+
+.icoFlecha:hover {
+  filter: invert(0);
+  background-color: transparent;
+}
+
+.icoFlecha.disabled {
+  cursor: default;
+  filter: invert(0.8);
+}
+
+.icoFlecha.disabled:hover {
+  cursor: default;
+  filter: invert(0.8);
+}
+
+.contPages .hidden {
+  margin: auto 0;
+  height: 2px;
+  overflow: hidden;
+  background-color: lightgray;
+  width: 2px;
+  min-width: 2px;
+  padding: 0;
+}

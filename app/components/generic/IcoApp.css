@@ -1,0 +1,25 @@
+.cont-ico-app {
+  display: grid;
+  grid-template-rows: 1fr max-content;
+  cursor: pointer;
+  gap: 10px;
+  border-radius: 15px;
+}
+
+.cont-ico-app>div {
+  justify-self: center;
+}
+
+.cont-ico-app>p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.cont-ico-ico-app {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: #a5b4b4;
+  border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+@tailwind components;
+
+@layer components {
+    .card {
+        @apply p-3 rounded-lg bg-white dark:bg-neutral-800 border;
+    }
+
+    .stats-card {
+        @apply card !p-0 w-[300px] h-[348px] flex flex-col relative;
+    }
+
+    .stats-card.stats-1 {
+        @apply !grid grid-rows-[48px_300px];
+    }
+
+    .stats-card.stats-2 {
+        @apply w-[612px];
+    }
+
+    .stats-card>.stats-title {
+        @apply rounded-t-my-8 px-my-16 h-my-48 flex items-center w-[inherit] text-sm tracking-wider uppercase text-neutral-400 dark:text-neutral-300;
+    }
+
+    .stats-card>.stats-floating-title {
+        @apply backdrop-blur-md top-0 left-0 right-0 z-10 shadow-xl absolute !w-full;
+    }
+
+    .stats-card>.stats-title>p {
+        @apply w-full overflow-hidden overflow-ellipsis whitespace-nowrap;
+    }
+}

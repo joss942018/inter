@@ -1,0 +1,48 @@
+.contPrincipal {
+  @apply rounded-xl overflow-hidden;
+}
+
+.contTitulo {
+  @apply p-3 flex justify-between items-center cursor-pointer;
+}
+
+.contTitulo.opened {
+  @apply text-black;
+}
+
+.contTitulo:hover {
+  @apply bg-gray-100;
+}
+
+.titulo {
+  @apply font-medium text-lg;
+}
+
+.contChildren {
+  @apply bg-gray-100;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  /* transform: scaleY(0);
+  transform-origin: 50% 0; */
+  transition: max-height 0.3s ease-in-out;
+}
+
+.chevron {
+  width: 20px;
+  transition: transform 0.15s ease-in-out;
+  transform: rotate(90deg);
+  filter: invert(0.8);
+}
+
+.chevron.active {
+  width: 20px;
+  transform: rotate(-90deg);
+}
+
+.contChildren.opened {
+  max-height: max-content;
+  padding: 12px;
+}

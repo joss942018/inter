@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --transicion-extra-rapida: 0.075s ease-in-out;
+  --transicion-rapida: 0.15s ease-in-out;
+  --transicion-moderada: 0.3s ease-in-out;
+  --transicion-popup: 0.35s ease-in-out;
+  --transicion-extra-rapida: 0.075s ease-in-out;
+  --transicion-rapida: 0.15s ease-in-out;
+
+  --color-principal: #64af45;
+  --color-secundario: #75cd50;
+  --color-contenido-modal: rgb(255, 255, 255);
+  --color-fondo-modal: rgba(0, 0, 0, 0.25);
+  --color-eliminar: rgb(180, 38, 38);
+
+  --radio-modal: 20px;
+
+  --padding-contenido-modal: 25px;
+
+  --background-color-light: #eaf4f6;
+  --background-color-dark: #191a19;
+
+  --background-color-lightB: #eaf4f6;
+  --background-color-darkB: #00e200;
+}
+
+@layer tailwind {
+  @tailwind base;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label {
+    @apply text-sm font-medium text-gray-700 dark:text-gray-200;
+  }
+
+  .cardTitle {
+    @apply text-xl font-medium text-center;
+  }
+
+  .errorMessage {
+    @apply text-red-500 text-sm font-medium;
+  }
+
+  .listOption {
+    /* prettier-ignore */
+    @apply p-2 hover:bg-slate-200 text-left rounded-lg cursor-pointer
+  }
+
+  .listOptionSelected {
+    /* prettier-ignore */
+    @apply p-2 bg-slate-300 text-left rounded-lg cursor-pointer text-black
+  }
+
+  .primaryColorFilter {
+    filter: invert(63%) sepia(8%) saturate(3140%) hue-rotate(58deg) brightness(96%) contrast(78%);
+  }
+
+  .linkColorFilter {
+    filter: invert(43%) sepia(85%) saturate(1488%) hue-rotate(184deg) brightness(99%) contrast(92%);
+  }
+
+  .darkColorFilter {
+    filter: invert(50%) sepia(48%) saturate(6%) hue-rotate(75deg) brightness(92%) contrast(90%);
+  }
+
+  .lightest_dColorFilter {
+    filter: invert(98%) sepia(9%) saturate(325%) hue-rotate(291deg) brightness(116%) contrast(80%);
+  }
+
+  .errorColorFilter {
+    filter: invert(45%) sepia(47%) saturate(7110%) hue-rotate(342deg) brightness(98%) contrast(94%);
+  }
+
+  .text-heading1 {
+    @apply text-[42px] font-bold;
+  }
+
+  .text-heading2 {
+    @apply text-[34px] font-bold;
+  }
+
+  .text-heading3 {
+    @apply text-[24px] font-bold;
+  }
+
+  .text-heading4 {
+    @apply text-[20px] font-medium;
+  }
+
+  .text-body {
+    @apply text-[16px] font-normal;
+  }
+
+  .text-small {
+    @apply text-[14px] font-normal;
+  }
+
+  .text-xsmall {
+    @apply text-[12px] font-normal;
+  }
+
+
+
+
+
+  .dark-shadow {
+    @apply dark:shadow-darkest_d;
+  }
+
+  .secondary-text {
+    @apply text-neutral-500 dark:text-neutral-200;
+
+  }
+
+  .opaque-action-button {
+    @apply cursor-pointer invert-[0.6] hover:invert-0 dark:invert-[0.5] dark:hover:invert-[0.9];
+  }
+
+  .content-without-navbar-height {
+    @apply h-[calc(100vh_-_4rem)];
+  }
+
+}
+
+@layer utilities {
+  .decorative-border {
+    @apply border-light dark:border-medium_d;
+  }
+
+  .non-decorative-border {
+    @apply border-medium dark:border-light_d;
+  }
+}
+
+html {
+  @apply text-black dark:text-white text-body;
+}
+
+.filtroColorSecondary {
+  filter: invert(80%) sepia(21%) saturate(6924%) hue-rotate(334deg) brightness(102%) contrast(101%);
+}
+
+td {
+  @apply p-0 m-0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: #ffffff; */
+  transition: background-color 5000s ease-in-out 0s;
+  /* box-shadow: inset 0 0 20px 20px #23232329; */
+}
+
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus,
+.dark input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  /* box-shadow: inset 0 0 20px 20px #23232329; */
+}
